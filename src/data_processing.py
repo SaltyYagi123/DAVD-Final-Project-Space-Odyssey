@@ -6,6 +6,7 @@ from wordcloud import WordCloud
 from io import BytesIO
 from dash import html
 
+i = 1
 df_mission_failure = pd.read_csv("assets/Space_Corrected.csv", encoding="ISO-8859-1")
 #Load and preprocess data 
 # Function to categorize majors based on keywords
